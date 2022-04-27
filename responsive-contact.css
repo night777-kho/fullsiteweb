@@ -1,0 +1,18 @@
+
+@media (max-width: 600px){
+.container-contact{
+    display: grid;
+    grid-template-columns: repeat(280px, 1fr);
+    row-gap: 18px;
+}
+}
+
+
+
+@media (max-width: 1300px){
+    .container-contact{
+        display: grid;
+        grid-template-columns: repeat(280px, 1fr);
+        row-gap: 25px;
+    }
+    }

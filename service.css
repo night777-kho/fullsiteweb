@@ -1,0 +1,72 @@
+.service{
+    padding: 78px 0;
+    background-color: #212529;
+    width: 100%;
+}
+
+.max-width-service{
+    width: 90%;
+    margin: auto;
+}
+
+.max-width-service h1{
+    font-size: 45px;
+    letter-spacing: 5px;
+    color: rgb(204, 37, 37);
+    text-align: center;
+    font-family: 'Kalam';
+    margin-bottom: 60px;
+}
+
+.container-service{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 18px;
+}
+
+.card{
+    background-color: rgb(24, 23, 23);
+    padding: 25px;
+    border-radius: 3px;
+    border-radius: 4px;
+}
+
+.title-card{
+    text-align: center;
+}
+
+.title-card i{
+    font-size: 65px;
+    margin-bottom: 20px;
+    color: rgb(199, 29, 29);
+}
+
+.title-card h2{
+    color: rgb(204, 37, 37);
+    font-family: 'Kalam';
+    letter-spacing: 3px;
+    font-size: 32px;
+}
+
+.title-card p{
+    color: rgba(255, 255, 255, 0.705);
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+.title-card button{
+    background-color: rgb(204, 37, 37);
+    color: white;
+    padding: 2px 0;
+    width: 45%;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family: 'Kalam';
+}
+
+.title-card button:hover{
+    background-color: rgba(204, 37, 37, 0.678);
+}
+

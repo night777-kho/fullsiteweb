@@ -1,0 +1,26 @@
+@media (max-width: 1480px){
+    .container-service{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 18px;
+        row-gap: 18px;
+    }
+}
+
+@media (max-width: 1300px){
+    .container-service{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 18px;
+        row-gap: 18px;
+    }
+}
+
+@media (max-width: 600px){
+    .container-service{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 18px;
+        row-gap: 18px;
+    }
+}
